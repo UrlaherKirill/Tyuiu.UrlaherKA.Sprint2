@@ -66,7 +66,10 @@ namespace Tyuiu.UrlaherKA.Sprint2.Task5.V13.Lib
                         n += 1;
                         break;
                 }
-                res = $"{n}.{m}.{g}";
+                if (n < 10 & m < 10) res = $"0{n}.0{m}.{g}";
+                else if (n < 10) res = $"0{n}.{m}.{g}";
+                else if (m < 10) res = $"{n}.0{m}.{g}";
+                else res = $"{n}.{m}.{g}";
                 return res;
             }
     

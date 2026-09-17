@@ -11,19 +11,24 @@ namespace Tyuiu.UrlaherKA.Sprint2.Task6.V11.Lib
             {
                 switch (m, n)
                 {
-                    case (1, 31): return res = $"{n = 1}.{m+1}.{g}";
-                    case (2, 29): return res = $"{n = 1}.{m + 1}.{g}";
-                    case (3, 31): return res = $"{n = 1}.{m + 1}.{g}";
-                    case (4, 30): return res = $"{n = 1}.{m + 1}.{g}";
-                    case (5, 31): return res = $"{n = 1}.{m + 1}.{g}";
-                    case (6, 30): return res = $"{n = 1}.{m + 1}.{g}";
-                    case (7, 31): return res = $"{n = 1}.{m + 1}.{g}";
-                    case (8, 31): return res = $"{n = 1}.{m + 1}.{g}";
-                    case (9, 30): return res = $"{n = 1}.{m + 1}.{g}";
-                    case (10, 31): return res = $"{n = 1}.{m + 1}.{g}";
-                    case (11, 30): return res = $"{n = 1}.{m + 1}.{g}";
-                    case (12, 31): return res = $"{n =1}.{m =1}.{g +=1}"; 
-                    default: return res = $"{n += 1}.{m}.{g}";
+                    case (1, 31): return res = $"0{n = 1}.0{m+1}.{g}";
+                    case (2, 29): return res = $"0{n = 1}.0{m + 1}.{g}";
+                    case (3, 31): return res = $"0{n = 1}.0{m + 1}.{g}";
+                    case (4, 30): return res = $"0{n = 1}.0{m + 1}.{g}";
+                    case (5, 31): return res = $"0{n = 1}.0{m + 1}.{g}";
+                    case (6, 30): return res = $"0{n = 1}.0{m + 1}.{g}";
+                    case (7, 31): return res = $"0{n = 1}.0{m + 1}.{g}";
+                    case (8, 31): return res = $"0{n = 1}.0{m + 1}.{g}";
+                    case (9, 30): return res = $"0{n = 1}.0{m + 1}.{g}";
+                    case (10, 31): return res = $"0{n = 1}.{m + 1}.{g}";
+                    case (11, 30): return res = $"0{n = 1}.{m + 1}.{g}";
+                    case (12, 31): return res = $"0{n =1}.0{m =1}.{g +=1}"; 
+                    default:
+                        if (n < 10 & m < 10) res = $"0{n+1}.0{m}.{g}";
+                        else if (n < 10) res = $"0{n+1}.{m}.{g}";
+                        else if (m < 10) res = $"{n+1}.0{m}.{g}";
+                        else res = $"{n+1}.{m}.{g}";
+                        return res;
                 }
             }
         }
