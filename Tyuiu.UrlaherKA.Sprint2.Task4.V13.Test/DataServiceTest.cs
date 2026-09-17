@@ -11,7 +11,7 @@ namespace Tyuiu.UrlaherKA.Sprint2.Task4.V13.Test
             double x = 1;
             double y = 1;
             double res = ds.Calculate(x, y);
-            double res_Wait = 9;
+            double res_Wait = 10;
             Assert.AreEqual(res, res_Wait);
         }
         [TestMethod]

@@ -11,19 +11,19 @@ namespace Tyuiu.UrlaherKA.Sprint2.Task6.V11.Lib
             {
                 switch (m, n)
                 {
-                    case (1, 31): return res = $"{g},{m+1},{n = 1}";
-                    case (2, 29): return res = $"{g},{m + 1},{n =1}";
-                    case (3, 31): return res = $"{g},{m + 1},{n =1}";
-                    case (4, 30): return res = $"{g},{m + 1},{n =1}";
-                    case (5, 31): return res = $"{g},{m + 1},{n =1}";
-                    case (6, 30): return res = $"{g},{m + 1},{n =1}";
-                    case (7, 31): return res = $"{g},{m + 1},{n =1}";
-                    case (8, 31): return res = $"{g},{m + 1},{n =1}";
-                    case (9, 30): return res = $"{g},{m + 1},{n =1}";
-                    case (10, 31): return res = $"{g},{m + 1},{n =1}";
-                    case (11, 30): return res = $"{g},{m + 1},{n =1}";
-                    case (12, 31): return res = $"{g+=1},{m =1},{n =1}"; 
-                    default: return res = $"{g},{m},{n += 1}";
+                    case (1, 31): return res = $"{n = 1}.{m+1}.{g}";
+                    case (2, 29): return res = $"{n = 1}.{m + 1}.{g}";
+                    case (3, 31): return res = $"{n = 1}.{m + 1}.{g}";
+                    case (4, 30): return res = $"{n = 1}.{m + 1}.{g}";
+                    case (5, 31): return res = $"{n = 1}.{m + 1}.{g}";
+                    case (6, 30): return res = $"{n = 1}.{m + 1}.{g}";
+                    case (7, 31): return res = $"{n = 1}.{m + 1}.{g}";
+                    case (8, 31): return res = $"{n = 1}.{m + 1}.{g}";
+                    case (9, 30): return res = $"{n = 1}.{m + 1}.{g}";
+                    case (10, 31): return res = $"{n = 1}.{m + 1}.{g}";
+                    case (11, 30): return res = $"{n = 1}.{m + 1}.{g}";
+                    case (12, 31): return res = $"{n =1}.{m =1}.{g +=1}"; 
+                    default: return res = $"{n += 1}.{m}.{g}";
                 }
             }
         }

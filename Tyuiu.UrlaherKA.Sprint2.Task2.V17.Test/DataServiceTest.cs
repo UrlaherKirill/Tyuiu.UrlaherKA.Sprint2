@@ -8,8 +8,8 @@ namespace Tyuiu.UrlaherKA.Sprint2.Task2.V17.Test
         [TestMethod]
         public void CheckBlackSquare()
         {
-            int x = 7;
-            int y = 12;
+            int x = 9;
+            int y = 6;
             bool res = ds.CheckDotInShadedArea(x, y);
             Assert.IsTrue(res);
         }

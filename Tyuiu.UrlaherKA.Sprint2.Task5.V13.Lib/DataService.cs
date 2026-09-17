@@ -66,7 +66,7 @@ namespace Tyuiu.UrlaherKA.Sprint2.Task5.V13.Lib
                         n += 1;
                         break;
                 }
-                res = $"{g},{m},{n}";
+                res = $"{n}.{m}.{g}";
                 return res;
             }
     

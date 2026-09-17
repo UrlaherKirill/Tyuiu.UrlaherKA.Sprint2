@@ -14,7 +14,7 @@ namespace Tyuiu.UrlaherKA.Sprint2.Task6.V11.Test
             m = 10;
             n = 15;
             string res = ds.FindDateOfNextDay(g, m, n);
-            string Wait_res = "1944,10,16";
+            string Wait_res = "16.10.1944";
             Assert.AreEqual(res, Wait_res);
         }
         [TestMethod]
@@ -25,7 +25,7 @@ namespace Tyuiu.UrlaherKA.Sprint2.Task6.V11.Test
             m = 10;
             n = 31;
             string res = ds.FindDateOfNextDay(g, m, n);
-            string Wait_res = "1944,11,1";
+            string Wait_res = "1.11.1944";
             Assert.AreEqual(res, Wait_res);
         }
         [TestMethod]
@@ -36,7 +36,7 @@ namespace Tyuiu.UrlaherKA.Sprint2.Task6.V11.Test
             m = 12;
             n = 31;
             string res = ds.FindDateOfNextDay(g, m, n);
-            string Wait_res = "1945,1,1";
+            string Wait_res = "1.1.1945";
             Assert.AreEqual(res, Wait_res);
 
         }
