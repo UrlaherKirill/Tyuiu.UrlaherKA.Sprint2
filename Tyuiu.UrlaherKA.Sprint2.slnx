@@ -34,4 +34,9 @@
     <Project Path="Tyuiu.UrlaherKA.Sprint2.Task6.V11.Test/Tyuiu.UrlaherKA.Sprint2.Task6.V11.Test.csproj" Id="0bc4c31b-46c1-4d8a-8005-8c709064ca8f" />
     <Project Path="Tyuiu.UrlaherKA.Sprint2.Task6.V11/Tyuiu.UrlaherKA.Sprint2.Task6.V11.csproj" Id="3c45e380-7f07-4fc1-970c-629f2f616163" />
   </Folder>
+  <Folder Name="/Task7/">
+    <Project Path="Tyuiu.UrlaherKA.Sprint2.Task7.V9.Lib/Tyuiu.UrlaherKA.Sprint2.Task7.V9.Lib.csproj" Id="8bb93243-215d-4bfe-98c9-d0406f930144" />
+    <Project Path="Tyuiu.UrlaherKA.Sprint2.Task7.V9.Test/Tyuiu.UrlaherKA.Sprint2.Task7.V9.Test.csproj" Id="5fcd1cb0-a4a8-4ffe-8eea-9ba9e32dbe80" />
+    <Project Path="Tyuiu.UrlaherKA.Sprint2.Task7.V9/Tyuiu.UrlaherKA.Sprint2.Task7.V9.csproj" Id="32b7104c-9c5f-44bb-96d0-6913d86553c7" />
+  </Folder>
 </Solution>
